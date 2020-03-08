@@ -1,13 +1,13 @@
-#mongoose-seeder-lib
+# mongoose-seeder-lib
 
 Seed data into mongoose schemas
 
-####Install
+#### Install
 ```
 npm i --save mongoose-seeder-lib
 ```
 
-####Use
+#### Use
 
 - import
 
@@ -39,9 +39,7 @@ const data = [
     },
 ];
 ```
-####Use createSeeder
-
-![Alt Text](https://i.gyazo.com/fc7cb436b81ecd7c1d03b43954d2bf3d.gif)
+#### Use createSeeder
 
 ```
 /**
@@ -52,9 +50,10 @@ const data = [
 const res = await createSeeder(data, schema);
 ```
 
-####Use dropDatabase
+![Alt Text](https://i.gyazo.com/fc7cb436b81ecd7c1d03b43954d2bf3d.gif)
 
-![Alt Text](https://i.gyazo.com/6e6d21c38dd7deb60e3dab0545966553.gif)
+
+#### Use dropDatabase
 
 ```
 /**
@@ -64,3 +63,7 @@ const res = await createSeeder(data, schema);
 
 const res = await dropDatabase(schema);
 ```
+
+![Alt Text](https://i.gyazo.com/6e6d21c38dd7deb60e3dab0545966553.gif)
+
+
