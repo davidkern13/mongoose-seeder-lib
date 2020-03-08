@@ -2,6 +2,11 @@
 
 Seed data into mongoose schemas
 
+#### NPM
+```
+https://www.npmjs.com/package/mongoose-seeder-lib
+```
+
 #### Install
 ```
 npm i --save mongoose-seeder-lib
