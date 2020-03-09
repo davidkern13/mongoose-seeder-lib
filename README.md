@@ -3,7 +3,7 @@
 Seed data into mongoose schemas
 
 #### NPM
-[a link](https://www.npmjs.com/package/mongoose-seeder-lib)
+[npm library click here](https://www.npmjs.com/package/mongoose-seeder-lib)
 
 
 #### Install
