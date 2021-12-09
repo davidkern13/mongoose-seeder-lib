@@ -15,13 +15,13 @@ npm i --save mongoose-seeder-lib
 
 - import
 
-```
+```Javascript
 const { createSeeder, dropDatabase } = require('mongoose-seeder-lib');
 ```
 
 - create custom data to seed
 
-```
+```Javascript
 const data = [
    {
         title: "Jordan 1 Retro High 85 Varsity Red",
@@ -45,7 +45,7 @@ const data = [
 ```
 #### Use createSeeder
 
-```
+```Javascript
 /**
  * Seed passed data
  * @return { Promise } 
@@ -59,7 +59,7 @@ const res = await createSeeder(data, schema);
 
 #### Use dropDatabase
 
-```
+```Javascript
 /**
  * Remove all data from table
  * @return { Promise } 
